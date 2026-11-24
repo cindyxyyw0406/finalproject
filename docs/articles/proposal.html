@@ -86,8 +86,19 @@
 <p>Both vignettes will document the data sources and cleaning decisions and present their findings and limitations on my pkgdown site.</p>
 </section><section class="level2"><h2 id="ai-use">AI use<a class="anchor" aria-label="anchor" href="#ai-use"></a>
 </h2>
-<p>I used ChatGPT to check if my thinking of the proposal is plausable.</p>
-</section><script id="quarto-html-after-body" type="application/javascript">
+<p>I used ChatGPT to assess whether my proposed analyses were feasible.</p>
+<p><strong>Vignette 1 — Waterborne outbreaks</strong></p>
+<ul>
+<li>What would it mean if one exposure group had a lower median number of illnesses per reported outbreak but a higher share of illnesses attributable to its largest 10% of outbreaks?</li>
+<li>If one exposure group has far fewer reported outbreaks, how sensitive is the top-10% illness share to rounding up and to a single unusually large outbreak? What simple sensitivity check could I report?</li>
+<li>How should I summarize the records excluded for mixed exposure categories or for missing or invalid illness counts? What can the pattern of exclusions tell me about how to interpret the comparison?</li>
+</ul>
+<p><strong>Vignette 2 — Homicide death rates across jurisdictions</strong></p>
+<ul>
+<li>If I include all ties at the cutoff for either top-ten list, how should I report the size of each group and the number of jurisdictions in both?</li>
+<li>Could comparing only 2019 and 2024 make a temporary spike look like a sustained increase? How could I use annual rates to show the difference for selected jurisdictions?</li>
+<li>How should I present death counts alongside age-adjusted rates when a jurisdiction ranks high but has few deaths? What caveat should I give when interpreting its rank or rate change?</li>
+</ul></section><script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
     const mode = bsSheetEl.getAttribute("data-mode");
